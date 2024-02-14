@@ -1,4 +1,4 @@
-# OS-Linux-commands-Shell-scripting
+cat file2# OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -49,18 +49,26 @@ cat < file1
 
 cat < file2
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/8fccc8a1-d8c7-490c-954c-8d12780ad55d)
+
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/faf7be7f-368e-4972-a142-bdb707f5ef60)
+
  
 comm file1 file2
  ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/a7a105ea-6765-4fd6-b997-014bbd767c2a)
 
  
 diff file1 file2
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/01ad1a86-1512-4ffd-9dd0-33ad1b981581)
+
+
 
 
 #Filters
@@ -84,17 +92,25 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/a0cce53d-e73e-455e-9340-72b81f67ad6d)
+
 
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/e7a008d1-3e4c-40d2-a3a5-44ba333b2e4f)
+
+
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/c5735266-0638-486c-a756-e6b0340deb48)
+
+
 
 
 cat < newfile 
@@ -109,28 +125,38 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/b702dd82-0b07-4005-b957-0cc15c1d3d23)
+
 
 
 
 grep hello newfile 
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/08ea546b-76f1-4eda-9e0f-f203f280e2a6)
+
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/45040c17-58c3-446f-aa3f-077eb70a68f3)
+
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/d193581f-02b6-4555-b088-7b05d7461148)
+
 
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/65a8474e-cc02-4c2d-9e67-8e76ee6c4584)
+
 
 
 
