@@ -42,6 +42,8 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/87ac0d6a-1446-457d-86a1-988721ea01af)
+
 
 
 
