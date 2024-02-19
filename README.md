@@ -168,6 +168,7 @@ grep -R ubuntu /etc
 
 grep -w -n world newfile   
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/3e1bda9a-6ea0-4db2-a568-fbc718c37a19)
 
 
 cat < newfile 
@@ -191,27 +192,36 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/25d0fec3-0f33-4029-bb7a-8b6dc3d9f165)
 
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/949add15-11a4-4fe7-84e8-440126aaa9a4)
+
 
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/30add5da-a3a2-4363-a53a-130b58db8320)
 
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/55b62521-ae26-4c21-a7ef-76af4069aca8)
+
 
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/6231c0d4-c8b0-4331-80ab-b50c2c750dfa)
+
+
 
 
 
@@ -221,6 +231,8 @@ egrep '(World$)' newfile
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/f34d417b-508e-4569-8d0e-e8a3ad4d6b45)
+
 
 
 
