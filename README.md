@@ -238,11 +238,15 @@ egrep '((W|w)orld$)' newfile
 
 egrep '[1-9]' newfile 
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/d39364c0-71da-42bc-844d-be536727a70f)
+
 
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/7149b0f0-5880-435e-8c34-0114f0fa3f94)
+
 
 
 egrep 'Linux.*World' newfile 
@@ -251,11 +255,14 @@ egrep 'Linux.*World' newfile
 
 egrep l{2} newfile
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/919d40e4-c1ea-42e1-9645-de17925281f8)
+
 
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/cea59baf-267b-419f-aee4-2673da56d2d5)
 
 
 cat > file23
@@ -274,21 +281,26 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/98b8fafa-04d2-41ed-ad0a-f1230817d95a)
 
 
 
 sed -n -e '$p' file23
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/b660c572-1734-40ce-be88-9252a60d9aa3)
 
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/dbb7abdd-1f69-4e0f-8433-2953261eb789)
 
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/6aa29cfd-6b07-4d27-b36e-1b14d1cb2e7e)
+
 
 
 
@@ -299,46 +311,63 @@ sed  '/tom/s/5000/6000/' file23
 
 sed -n -e '1,5p' file23
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/0257c450-9623-4f9c-a9fa-376e59ea41eb)
+
 
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/13bd70de-b1df-4d66-91f4-400ca29f4092)
+
 
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/f4130ac3-9533-4d96-8f07-cabd48ddeb4b)
+
 
 
 
 seq 10 
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/6878d8f6-6916-4079-9662-041241ba0fb7)
 
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/81bde4e8-4de7-46ae-a6ab-91a67224ad05)
+
 
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/fd8471e6-bc9a-43b1-aa5d-573add27fa89)
+
 
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/444759b0-3989-40f1-add9-59938cbb27f1)
+
 
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/f725afb5-e8b8-4694-b49c-b8a0c813a692)
+
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/a00f2a8c-4b7d-4822-99cf-83263a691c6a)
+
 
 
 sed -n '2,4{s/^/$/;p}' file23
@@ -347,6 +376,8 @@ sed -n '2,4{s/^/$/;p}' file23
 
 
 sed -n '2,4{s/$/*/;p}' file23
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/d04ee7c2-46ee-43ac-93b2-0ea156edc231)
+
 
 
 #Sorting File content
@@ -360,6 +391,8 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/0fa515bd-81b8-4cb3-8d49-4e050065141e)
+
 
 
 cat > file22
@@ -373,6 +406,8 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/47a9031a-70e8-4290-ab78-aee3b3336700)
+
 
 
 
@@ -380,6 +415,8 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+ ![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/3a8b94a3-b62c-4e2d-ba61-6b952493ee12)
+
 
 cat < urllist.txt
 ```
