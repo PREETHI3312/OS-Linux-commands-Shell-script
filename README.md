@@ -433,11 +433,15 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+ ![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/bfeb1938-f6da-4d70-a305-87724b6f9b66)
+
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/a0a2671d-6f19-4682-bd0d-36e82d2a7048)
+
 
 
 
@@ -486,6 +490,8 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/f05197ce-9a61-4432-8677-06f9a3f2074d)
+
 
 
 cat < scriptest.sh 
@@ -528,6 +534,8 @@ chmod 777 scriptest.sh
  
 ls file1
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/6d43e64c-5b38-4b4c-953d-15306e4f0962)
+
 
 echo $?
 ## OUTPUT 
@@ -536,6 +544,8 @@ bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/e207d92e-1b49-4f24-bf5e-6b509e151ca3)
+
  
 abcd
  
