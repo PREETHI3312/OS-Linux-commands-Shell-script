@@ -475,7 +475,7 @@ gunzip backup.tar.gz
 echo '#!/bin/sh' > my-script.sh
 echo 'echo Hello World‘; exit 0 >> my-script.sh
 ```
-chmod 755 my-script.sh
+chmod 755 my-script.sh 
 ./my-script.sh
 ## OUTPUT
 
@@ -582,7 +582,6 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
 
 
 
@@ -591,6 +590,7 @@ chmod 755 strcomp.sh
 ./strcomp.sh 
 ## OUTPUT
 
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/f5691f96-7fb8-405b-aca8-99b245694866)
 
 # check file ownership
 cat < psswdperm.sh 
@@ -617,6 +617,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/9e14508f-e06b-48bd-8335-24ab45869507)
 
 # check if with file location
 cat>ifnested.sh 
@@ -663,11 +664,12 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/a3bbfe31-a584-41fa-bb8e-34f6a8c71c2d)
 
 
 
 # using numeric test comparisons
-cat > iftest.sh 
+cat >  iftest.sh 
 ```bash
 \#!/bin/bash
 val1=10
@@ -706,7 +708,10 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
+
 ##OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/f0324dc3-e174-4c13-9e62-2b8e12f0ece8)
+
 
 # check if a file
 cat > ifnested.sh 
@@ -755,7 +760,10 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
+
 ##OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/4d51cbe0-75a7-4c8b-9897-31d80e242b23)
+
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -785,6 +793,7 @@ $ chmod 755 elifcheck.sh
 $ ./elifcheck.sh 
 ## OUTPUT
 
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/b23da05d-9057-4155-a3b3-e0d5e1658424)
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -800,6 +809,9 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+
+
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/dd2856b3-6746-4001-9bb5-64248d70cbf2)
 
 # using the case command
 cat >casecheck.sh 
@@ -819,6 +831,9 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
+## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/2089b93c-f8f4-4aa2-9a14-7ad18c022649)
+
  
 cat > whiletest
 ```bash
