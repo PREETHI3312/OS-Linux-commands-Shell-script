@@ -836,8 +836,6 @@ $ ./casecheck.sh
 
  
 cat > whiletest
-```bash
-#!/bin/bash
 #while command test
 var1=10
 while [ $var1 -gt 0 ]
@@ -845,10 +843,16 @@ do
 echo $var1
 var1=$[ $var1 - 1 ]
 done
+```bash
+#!/bin/bash
+
 ```
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
+
+## OUTPUT
+
  
  
 cat untiltest.sh 
@@ -862,6 +866,9 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
+
+## OUTPUT
+
  
  
  
@@ -876,6 +883,10 @@ done
  ```
  
 $ chmod 755 forin1.sh
+
+## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/5db0aa23-2b65-47be-845b-d27e71d1cf0e)
+
  
  
 cat forin2.sh 
@@ -902,6 +913,11 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
+
+## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/e871a57b-eba5-4f24-beaa-b50a1cc05f9d)
+
+
  
 cat forin3.sh 
 ```bash
@@ -913,6 +929,13 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
+
+## OUTPUT
+
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/3e502c00-aa25-42d7-94f4-c1cf42abbeb0)
+
+
+
  
 cat forin1.sh 
 ```bash
@@ -926,6 +949,11 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/57eb9b7e-55ed-4f8a-b04f-299ca7312d54)
+
+
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -937,6 +965,10 @@ echo "Visit beautiful $file“
 done
 ```
 $ chmod 777 forinfile.sh
+
+## OUTPUT
+
+
 $ cat cities
 Hyderabad
 Alampur
@@ -947,6 +979,8 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/23e57dee-3012-407b-a599-187a55addb7b)
+
 
 
 cat forctype.sh 
@@ -961,6 +995,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/2811cf5c-8f23-497a-8175-1e53557b62ab)
+
 
 cat forctype1.sh 
 ```bash
@@ -974,6 +1010,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+
 
 cat fornested1.sh 
 ```bash
@@ -1008,11 +1045,15 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
-## OUTPUT
 
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
+
+## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/605c7e2c-66cc-4915-b199-f4a7fe1f3dc7)
+
+
  
 cat forbreak.sh 
 ```bash
@@ -1048,6 +1089,8 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/85d238ab-8b91-4dd4-a8a6-6b840499c3ba)
+
 
 
  cat exread1.sh
@@ -1058,12 +1101,15 @@ read -p "Enter your name: " name
 echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
+$ ./exread1.sh 
 
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/321f81e4-81c7-499b-b9f5-1cab56f6288f)
 
 
 
-$ ./exread1.sh 
+
+
  
 cat funcex.sh
 ```bash
@@ -1080,11 +1126,14 @@ else
 echo "Usage: badtest1 a b"
 fi
 ```
-## OUTPUT
- ./funcex.sh 
+./funcex.sh 
 
  
  ./funcex.sh 1 2
+## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/cdfc76b5-6701-4b9d-ac3a-d01716b50612)
+
+ 
 
  
 cat argshift.sh
@@ -1096,9 +1145,10 @@ cat argshift.sh
 done
 ```
 $ chmod 777 argshift.sh
+$ ./argshift.sh 1 2 3
 
 ## OUTPUT
-$ ./argshift.sh 1 2 3
+
  
  cat argshift1.sh
 ```bash
@@ -1114,8 +1164,9 @@ for (( i=0;i<$ELEMENTS;i++)); do
 done
 ```
 $ chmod 777 argshift.sh
-## OUTPUT
 $ ./argshift.sh 1 2 3
+## OUTPUT
+
  
 cat argshift.sh
 ```bash
@@ -1126,9 +1177,10 @@ while (( "$#" )); do
   shift 
 done
 set +x
+ ./argshift.sh 1 2 3
 ```
 ## OUTPUT
- ./argshift.sh 1 2 3
+
  
  
 cat > nc.awk
@@ -1145,6 +1197,11 @@ print "Number of Lines are",NR
 print "No of Words count:",wordcount
 }
  ```
+
+## OUTPUT
+
+
+
 cat>data.dat
 ```bash
 bcdfghj
