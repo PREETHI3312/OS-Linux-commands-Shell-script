@@ -1,4 +1,8 @@
-cat file2# OS-Linux-commands-Shell-scripting
+## DATE: 2/3/2024
+## NAME:Preethi A K
+## DEPARTMENT: AI & DS
+## REGISTER NUMBER: 212223230156
+# OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
