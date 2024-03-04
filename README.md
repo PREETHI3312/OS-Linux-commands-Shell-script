@@ -163,6 +163,8 @@ cat newfile | grep -i -c "hello"
 
 grep -R ubuntu /etc
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/22fdcf81-932f-4b8d-8525-a64e0ec2f425)
+
 
 
 
@@ -227,6 +229,8 @@ egrep '(world$)' newfile
 
 egrep '(World$)' newfile 
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/54bd99ae-8395-4423-a4d5-33985e59bf47)
+
 
 
 egrep '((W|w)orld$)' newfile 
@@ -251,6 +255,8 @@ egrep 'Linux.*world' newfile
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/a1558cfd-123d-4d04-a072-edf7f8e194de)
+
 
 
 egrep l{2} newfile
@@ -306,6 +312,8 @@ sed  -e '2s/Ram/Sita/' file23
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/30f5c5a9-9c75-43f0-8ad1-38df5d8c8177)
+
 
 
 
@@ -372,9 +380,6 @@ seq 10 | sed '2,9c hello'
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
-
-
-
 sed -n '2,4{s/$/*/;p}' file23
 ![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/d04ee7c2-46ee-43ac-93b2-0ea156edc231)
 
@@ -448,6 +453,8 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/4c9a04e6-dfe5-4928-af8f-b4f35f38d37c)
+
 
 
 mkdir backupdir
@@ -456,10 +463,14 @@ mv backup.tar backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/ccbc4154-17d8-4dc5-bbaf-0896a668b8a5)
+
 
 
 tar -xvf backup.tar
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/0d5efaa0-863c-4b17-9ed8-3e9dd6f09955)
+
 
 gzip backup.tar
 
@@ -478,6 +489,8 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh 
 ./my-script.sh
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/8b571dc0-2f93-4ab2-a314-0055d7559ee3)
+
 
  
 cat << stop > herecheck.txt
@@ -530,6 +543,8 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/66ce463b-a769-4ce7-9701-472a735ec84e)
+
 
  
 ls file1
@@ -551,6 +566,7 @@ abcd
  
 echo $?
  ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/84516bf6-930b-4545-8031-e8922ded7758)
 
 
  
@@ -761,7 +777,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 
-##OUTPUT
+## OUTPUT
 ![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/4d51cbe0-75a7-4c8b-9897-31d80e242b23)
 
 
@@ -852,6 +868,8 @@ $ chmod 755 whiletest.sh
 $ ./whiletest.sh
 
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/01d121de-472d-4dbd-b7b9-3b02b5273151)
+
 
  
  
@@ -868,6 +886,8 @@ done
 $ chmod 755 untiltest.sh
 
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/37852111-38c2-4d5b-b02e-db081bb55911)
+
 
  
  
@@ -967,6 +987,8 @@ done
 $ chmod 777 forinfile.sh
 
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/a2fc3dd0-6460-481c-93c6-644032cf66bf)
+
 
 
 $ cat cities
@@ -1010,6 +1032,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/25c8eba9-2ae6-4b0d-aee8-0f5bdc40756f)
+
 
 
 cat fornested1.sh 
@@ -1029,6 +1053,8 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+ ![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/7ff92879-790a-4e10-b53d-b3f846385518)
+
 
  
 cat forbreak.sh 
@@ -1074,7 +1100,7 @@ echo "The for loop is completed“
 $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
-## OUTPUT
+
  
 cat exread.sh 
 ```bash
@@ -1148,6 +1174,8 @@ $ chmod 777 argshift.sh
 $ ./argshift.sh 1 2 3
 
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/d16bf8f4-1339-48cf-a69f-099205f74514)
+
 
  
  cat argshift1.sh
@@ -1166,6 +1194,8 @@ done
 $ chmod 777 argshift.sh
 $ ./argshift.sh 1 2 3
 ## OUTPUT
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/71f9847b-4423-43ed-9b5a-6fe1b1902839)
+
 
  
 cat argshift.sh
@@ -1179,7 +1209,8 @@ done
 set +x
  ./argshift.sh 1 2 3
 ```
-## OUTPUT
+
+
 
  
  
@@ -1198,7 +1229,7 @@ print "No of Words count:",wordcount
 }
  ```
 
-## OUTPUT
+
 
 
 
@@ -1217,6 +1248,10 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/8a81067c-381e-4a78-a1f8-a6b503c919a4)
+![image](https://github.com/PREETHI3312/OS-Linux-commands-Shell-script/assets/151625222/895da9ca-8150-4a82-907a-1ee93a57e361)
+
+
  
 cat > palindrome.sh
 ```bash
@@ -1243,7 +1278,7 @@ else
 	echo "Number is NOT palindrome"
 fi
 ```
-## OUTPUT 
+ 
 
 
 # RESULT:
